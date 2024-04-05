@@ -11,12 +11,6 @@ A small part of code from a large project as an example of work.
 4. `@project-name-frontend/api-client` - a package with additional API requests
 5. `"@project-name-frontend/cli"` - package with configuration
 
-## Installation
-
-1. Clone the repository.
-2. Remove `.git`.
-3. Perform `yarn install`.
-
 ## Scripts
 
 * `yarn start` - to run local server
