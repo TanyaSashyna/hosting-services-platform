@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClearCache renders ClearCache and matches snapshot 1`] = `
+<DocumentFragment>
+  @media (max-width:768px) {
+  .c0 .indent-bottom {
+    padding-bottom: 0;
+  }
+}
+
+<div
+    class="card c0"
+  >
+    <div
+      class="card__head"
+    >
+      <div
+        class="card__head__text"
+      >
+        <div
+          class="card__head--wrap"
+        >
+          <div
+            class="card__title"
+          >
+            Tools
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card__body card__body--no-pad"
+    >
+      <div
+        class="cardRow cardRow--border"
+      >
+        <div
+          class="cardInfo"
+        >
+          <div
+            class="cardInfo__inner"
+          >
+            <span
+              class="cardInfo__content"
+            >
+              <div>
+                <strong>
+                  Edge cache
+                </strong>
+                 dictates the duration for which content remains stored in the cache. By default, this period is set to one hour.
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="cardRow cardRow--direction-column cardRow--spacing-space-between cardRow--border"
+      >
+        <div
+          class="cardInfo indent-bottom"
+        >
+          <div
+            class="cardInfo__inner"
+          >
+            <span
+              class="cardInfo__header"
+            >
+              Clear all cache
+            </span>
+            <span
+              class="cardInfo__content"
+            >
+              Clearing the entire cache will ensure that your website's visitors experience the most up-to-date version of your site.
+            </span>
+          </div>
+        </div>
+        <div
+          class="cardInfo cardInfo--align-center"
+        >
+          <div
+            class="cardInfo__inner cardInfo--fullWidth"
+          >
+            <div
+              class="cardInfo__action"
+            >
+              <button
+                class="button button--size-default button--type-default button--text button--fullWidth"
+                data-testid="clear-cache-btn"
+                type="button"
+              >
+                <div
+                  class="button__internal"
+                >
+                  <div
+                    class="button__children"
+                  >
+                    Clear all cache
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

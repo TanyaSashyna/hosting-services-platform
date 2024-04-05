@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToolPage renders by selected tab 1`] = `
+<DocumentFragment>
+   
+  @media (max-width:768px) {
+  .c0 .hint-btn .button__internal {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width:768px) {
+
+}
+
+<div
+    class="buttonGroup buttonGroup--layout-center c0 buttonGroup--mobile"
+  >
+    <button
+      class="button hint-btn button--size-default button--type-borderless button--text"
+      type="button"
+    >
+      <div
+        class="button__internal"
+      >
+        <div
+          class="button__children"
+        >
+          About Tool
+        </div>
+        <div
+          class="button__icon"
+        >
+          <i
+            class="icon"
+          >
+            keyboard_arrow_down
+          </i>
+        </div>
+      </div>
+    </button>
+  </div>
+  .c0 .card-align {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .thin-text {
+  font-weight: 400;
+}
+
+.c1 {
+  padding: 16px;
+  padding-top: 0;
+}
+
+@media (max-width:768px) {
+
+}
+
+@media (max-width:768px) {
+  .c0 .cardInfo:first-child {
+    padding-bottom: 0;
+  }
+}
+
+<div
+    class="card c0"
+  >
+    <div
+      class="card__head"
+    >
+      <div
+        class="card__head__text"
+      >
+        <div
+          class="card__head--wrap"
+        >
+          <div
+            class="card__title"
+          >
+            <div>
+              Add Tool to 
+              <div>
+                R29 per month.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card__body card__body--no-pad"
+    >
+      <div
+        class="cardRow cardRow--direction-column cardRow--spacing-space-between"
+      >
+        <div
+          class="cardInfo"
+        >
+          <div
+            class="cardInfo__inner"
+          >
+            <span
+              class="cardInfo__content"
+            >
+              Speed up content delivery on your website.
+            </span>
+          </div>
+        </div>
+        <div
+          class="cardInfo cardInfo--align-center"
+        >
+          <div
+            class="cardInfo__inner cardInfo--fullWidth"
+          >
+            <div
+              class="cardInfo__action"
+            >
+              <button
+                class="button button--size-default button--type-default button--text button--fullWidth"
+                data-testid="add-btn"
+                disabled=""
+                title=""
+                type="button"
+              >
+                <div
+                  class="button__internal"
+                >
+                  <div
+                    class="button__icon"
+                  >
+                    <i
+                      class="icon"
+                    >
+                      add
+                    </i>
+                  </div>
+                  <div
+                    class="button__children"
+                  >
+                    Add
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c1"
+      >
+        <div
+          class="notificationBanner notificationBanner__border--warning notificationBanner--borderAll"
+        >
+          <div
+            class="notificationBanner__icon"
+          >
+            <i
+              class="icon icon--warning"
+            >
+              warning
+            </i>
+          </div>
+          <div
+            class="notificationBanner__content"
+          >
+            <div
+              class="notificationBanner__content__title"
+            >
+              Warning
+            </div>
+            <div
+              class="notificationBanner__content__body"
+            >
+              Unable to determine origin web server/web server IP. Please contact the Technical Support team at 
+              <a
+                class="link link--type-default"
+                href="mailto:support@project-name.com"
+              >
+                support@project-name.com
+              </a>
+               for assistance.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

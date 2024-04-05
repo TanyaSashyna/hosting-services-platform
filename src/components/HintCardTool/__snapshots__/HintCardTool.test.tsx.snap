@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HintCardList matches snapshot 1`] = `
+<DocumentFragment>
+   
+  @media (max-width:768px) {
+  .c0 .hint-btn .button__internal {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+<div
+    class="buttonGroup _buttonGroup--layout-center c0 buttonGroup--mobile"
+  >
+    <button
+      class="button hint-btn button--size-default button--type-borderless button--text"
+      type="button"
+    >
+      <div
+        class="button__internal"
+      >
+        <div
+          class="button__children"
+        >
+          About Tool
+        </div>
+        <div
+          class="button__icon"
+        >
+          <i
+            class="icon"
+          >
+            keyboard_arrow_down
+          </i>
+        </div>
+      </div>
+    </button>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,98 @@
+{
+  "name": "@project-name/tool",
+  "version": "1.0.2",
+  "private": true,
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "resolutions": {
+    "styled-components": "5.3.3"
+  },
+  "dependencies": {
+    "@types/react-csv": "^1.1.2",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
+    "react-csv": "^2.0.3"
+  },
+  "peerDependencies": {
+    "@project-name-frontend/api-client": "0.1.0",
+    "@project-name-frontend/shared-context": "^1.0.0",
+    "@project-name-frontend/ui-package": "^1.0.0",
+    "@project-name-frontend/utils": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.1.2",
+    "styled-components": "5.3.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.2",
+    "@testing-library/react": "^10.4.7",
+    "@testing-library/user-event": "^7.2.1",
+    "@project-name-frontend/api-client": "0.1.0",
+    "@project-name-frontend/shared-context": "^1.0.0",
+    "@project-name-frontend/cli": "1.0.0",
+    "@project-name-frontend/ui-package": "^1.0.0",
+    "@project-name-frontend/utils": "^1.0.0",
+    "env-cmd": "^10.1.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.1.2",
+    "styled-components": "5.3.3",
+    "typescript": "^5.0.4"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "<rootDir>/src/components/**/*.{jsx,tsx}",
+      "<rootDir>/src/containers/**/*.{jsx,tsx}",
+      "<rootDir>/src/pages/**/*.{jsx,tsx}",
+      "!<rootDir>/src/pages/Root.tsx",
+      "!<rootDir>/node_modules/"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 70,
+        "functions": 70,
+        "lines": 70,
+        "statements": 70
+      }
+    },
+    "coverageReporters": [
+      "text"
+    ]
+  },
+  "scripts": {
+    "start": "env-cmd -f ./bin/.env.shell xcp-fe-cli start --port=3000",
+    "build:dev": "env-cmd -f ./bin/.env.dev xcp-fe-cli build",
+    "build:main": "env-cmd -f ./bin/.env.main xcp-fe-cli build",
+    "test": "xcp-fe-cli test --silent",
+    "coverage": "xcp-fe-cli test --silent --coverage --watchAll=false --passWithNoTests",
+    "lint": "xcp-fe-cli lint --ext .js,.jsx,.ts,.tsx src --color",
+    "prettier": "xcp-fe-cli prettier",
+    "make": "xcp-fe-cli make"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,js,tsx,jsx,css,json}": [
+      "yarn lint",
+      "yarn prettier"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": ""
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

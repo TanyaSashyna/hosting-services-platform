@@ -1,0 +1,9 @@
+FROM gitlab.....
+
+ENV APP_MODULE_FEDERATION_PATH="/module-federations/tool"
+
+ENV APP_MODULE_FEDERATION_URL="https://...."
+
+ENV APP_API_URL="https://...."
+
+COPY ./build/ /app/public

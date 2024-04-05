@@ -1,0 +1,6 @@
+{
+  "high": true,
+  "critical": true,
+  "package-manager": "yarn",
+  "allowlist": ["serialize-javascript", "object-path", "immer", "netmask"]
+}

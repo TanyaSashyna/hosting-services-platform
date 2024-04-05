@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardNotificationBanner renders CardNotificationBanner and matches snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  padding: 16px;
+  padding-top: 0;
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="notificationBanner notificationBanner__border--warning notificationBanner--borderAll"
+    >
+      <div
+        class="notificationBanner__icon"
+      >
+        <i
+          class="icon icon--warning"
+        >
+          warning
+        </i>
+      </div>
+      <div
+        class="notificationBanner__content"
+      >
+        <div
+          class="notificationBanner__content__title"
+        >
+          Warning
+        </div>
+        <div
+          class="unotificationBanner__content__body"
+        >
+          Unable to determine origin web server/web server IP. Please contact the Technical Support team at 
+          <a
+            class="link link--type-default"
+            href="mailto:support@project-name.com"
+          >
+            support@project-name.com
+          </a>
+           for assistance.
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

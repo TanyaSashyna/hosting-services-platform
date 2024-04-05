@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToolNotificationBanner renders ToolNotificationBanner and matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="notificationBanner notificationBanner__border--positive"
+  >
+    <div
+      class="notificationBanner__icon"
+    >
+      <i
+        class="icon icon--positive"
+      >
+        check_circle
+      </i>
+    </div>
+    <div
+      class="notificationBanner__content"
+    >
+      <div
+        class="notificationBanner__content__title"
+      >
+        Tool is active on example.com
+      </div>
+      <div
+        class="notificationBanner__content__body"
+      >
+        Your website’s DNS is now pointing to Tool.
+      </div>
+    </div>
+    <button
+      class="MuiButtonBase-root MuiIconButton-root iconButton iconButton--default notificationBanner__icon MuiIconButton-sizeSmall"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiIconButton-label"
+      >
+        <i
+          class="icon"
+        >
+          close
+        </i>
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
